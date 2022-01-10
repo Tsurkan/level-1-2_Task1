@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3>Задание 1</h3>
+    <div id="item1"></div>
+    <button onclick="document.getElementById('item1').style.display = 'none'">Способ 1</button>
+    <button onclick="document.getElementById('item1').remove()">Способ 2</button>
+    <button onclick="document.getElementById('item1').setAttribute('class','hidden')">Способ 3</button>
+    <hr>
+
+    <h3>Задание 2</h3>
+    <div id="item2"></div>
+    <button onclick="showOrHide2(this)">Удалить</button>
+    <hr>
+
+    <h3>Задание 3</h3>
+    <div class="item3"></div>
+    <div class="item3"></div>
+    <div class="item3"></div>
+    <div class="item3"></div>
+    <div class="item3"></div><br>
+    <button onclick="showOrHide3(this)">Удалить</button>
+    <hr>
+
+    <h3>Задание 4</h3>
+    <div class="item4"></div>
+    <input type="text" id="item4">
+    <button onclick="showOrHide4(this)">Удалить</button>
+    <hr>
+
+    <h3>Задание 5</h3>
+    <div class="item5"></div>
+    <button id="item5">Нажми меня</button>
+    <hr>
+
+    <h3>Задание 6</h3>
+    <button id="item6">Наведи на меня</button>
+    <div class="item6 hidden"></div>
+    <hr>
+
+    <h3>Задание 7</h3>
+    <input type="text" id="item7">
+    <div class="item7 hidden"></div>
+    <hr>
+
+    <h3>Задание 8</h3>
+    <input type="text" class="item8">
+    <button id="item8">Нажми</button>
+    <hr>
+
+    <h3>Задание 9</h3>
+    <textarea class="item9" cols="30" rows="10"></textarea>
+    <button id="item9">Нажми</button>
+    <hr>
+
+    <h3>Задание 10-12</h3>
+    <div id="item10">
+        <span class="coordinattes"></span><br>
+        Язык браузера: <span class="lang"></span><br>
+        X: <span class="x"></span><br>
+        Y: <span class="y"></span>
+    </div>
+    <hr>
+
+    <h3>Задание 13</h3>
+    <div class="item13" contenteditable="true"></div>
+    <div class="item13" contenteditable="true">Lorem ipsum dolor sit amet.</div>
+    <div class="item13" contenteditable="true">Lorem, ipsum.</div>
+    <hr>
+
+    <h3>Задание 14</h3>
+    <button id="item14">Наверх</button>
+    <hr>
+
+    <h3>Задание 15</h3>
+    <div id="item15">
+        <div id="item15_2"></div>
+    </div>
+    <hr>
+
+    <h3>Задание 16</h3>
+    <button id="item16">Попап</button>
+    <div class="popup__bg"></div>
+    <hr>
+
+    <h3>Задание 17</h3>
+    <form><input type="submit" value="GO" id="item17"></form>
+    <hr>
+
+    <script src="js.js"></script>
+</body>
+</html>
